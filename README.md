@@ -137,6 +137,9 @@ Support continuous play
 			height: Ti.UI.SIZE,
 			title: 'START'
 		});
+	window.add(tickerView);
+	window.add(tickButton);
+	window.open();
 	
 	tickerView.addEventListener('start', function(){
 		tickButton.setTitle('STOP');
