@@ -7,10 +7,17 @@
 #import "TiUIView.h"
 
 @interface BeK0sukeTisbtickerviewView : TiUIView {
-    UIView *_frontView;
-    UIView *_backView;
+    NSMutableArray *_views;
+    NSTimer *_timer;
+    NSInteger _index;
+    BOOL _start;
+    int _direction;
+    BOOL _animate;
+    BOOL _loop;
 }
 
 -(void)tick:(id)args;
+-(void)start:(id)args;
+-(void)stop:(id)args;
 
 @end

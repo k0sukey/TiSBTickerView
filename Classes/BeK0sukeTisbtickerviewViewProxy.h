@@ -11,5 +11,7 @@
 }
 
 -(void)tick:(id)args;
+-(void)start:(id)args;
+-(void)stop:(id)args;
 
 @end

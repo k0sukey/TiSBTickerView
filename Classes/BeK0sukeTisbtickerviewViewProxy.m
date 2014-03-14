@@ -19,5 +19,7 @@
 #endif
 
 USE_VIEW_FOR_UI_METHOD(tick);
+USE_VIEW_FOR_UI_METHOD(start);
+USE_VIEW_FOR_UI_METHOD(stop);
 
 @end

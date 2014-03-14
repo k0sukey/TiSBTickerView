@@ -12,63 +12,48 @@ win.open();
 
 // TODO: write your module tests here
 var TiSBTicker = require('be.k0suke.tisbtickerview');
-var direction = TiSBTicker.TICK_DIRECTION_DOWN;
+
+var views = [];
+for (var i = 0; i < 10; i++) {
+	views.push(Ti.UI.createLabel({
+		top: 0,
+		right: 0,
+		bottom: 0,
+		left: 0,
+		width: Ti.UI.FILL,
+		height: Ti.UI.FILL,
+		backgroundColor: i % 2 ? '#fff' : '#000',
+		borderColor: '#000',
+		borderRadius: 8,
+		text: i,
+		color: i % 2 ? '#000' : '#fff',
+		font: {
+			fontSize: 40,
+			fontWeight: 'bold'
+		},
+		textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+		verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER
+	}));
+}
 
 var tickerView = TiSBTicker.createView({
 	width: 200,
 	height: 200,
-	frontView: Ti.UI.createLabel({
-		top: 0,
-		right: 0,
-		bottom: 0,
-		left: 0,
-		width: Ti.UI.FILL,
-		height: Ti.UI.FILL,
-		backgroundColor: '#fff',
-		borderColor: '#000',
-		borderRadius: 8,
-		text: 'FRONT',
-		color: '#000',
-		font: {
-			fontSize: 40,
-			fontWeight: 'bold'
-		},
-		textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-		verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER
-	}),
-	backView: Ti.UI.createLabel({
-		top: 0,
-		right: 0,
-		bottom: 0,
-		left: 0,
-		width: Ti.UI.FILL,
-		height: Ti.UI.FILL,
-		backgroundColor: '#000',
-		borderRadius: 8,
-		text: 'BACK',
-		color: '#fff',
-		font: {
-			fontSize: 40,
-			fontWeight: 'bold'
-		},
-		textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-		verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER
-	}),
-	duration: 1000
+	views: views
 });
 win.add(tickerView);
 
 tickerView.addEventListener('start', function(){
-	tickButton.setEnabled(false);
+	tickButton.setTitle('STOP');
+	tickButton.setEnabled(true);
+});
+
+tickerView.addEventListener('progress', function(e){
+	console.log(e.index);
 });
 
 tickerView.addEventListener('complete', function(){
-	if (direction === TiSBTicker.TICK_DIRECTION_DOWN) {
-		direction = TiSBTicker.TICK_DIRECTION_UP;
-	} else {
-		direction = TiSBTicker.TICK_DIRECTION_DOWN;
-	}
-
+	tickButton.setTitle('START');
 	tickButton.setEnabled(true);
 });
 
@@ -76,13 +61,21 @@ var tickButton = Ti.UI.createButton({
 	bottom: 10,
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
-	title: 'TICK'
+	title: 'START'
 });
 win.add(tickButton);
 
 tickButton.addEventListener('click', function(){
-	tickerView.tick({
-		direction: direction,
-		animate: true
-	});
+	tickButton.setEnabled(false);
+
+	if (tickButton.getTitle() === 'START') {
+		tickerView.start({
+			direction: TiSBTicker.TICK_DIRECTION_DOWN,
+			animate: true,
+			interval: 500,
+			loop: true
+		});
+	} else {
+		tickerView.stop();
+	}
 });

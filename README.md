@@ -99,6 +99,74 @@ Execute build.py
 		});
 	});
 
+Support continuous play
+
+	var views = [];
+	for (var i = 0; i < 10; i++) {
+		views.push(Ti.UI.createLabel({
+			top: 0,
+			right: 0,
+			bottom: 0,
+			left: 0,
+			width: Ti.UI.FILL,
+			height: Ti.UI.FILL,
+			backgroundColor: i % 2 ? '#fff' : '#000',
+			borderColor: '#000',
+			borderRadius: 8,
+			text: i,
+			color: i % 2 ? '#000' : '#fff',
+			font: {
+				fontSize: 40,
+				fontWeight: 'bold'
+			},
+			textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+			verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER
+		}));
+	}
+
+	var TiSBTicker = require('be.k0suke.tisbtickerview'),
+		window = Ti.UI.createWindow(),
+		tickerView = TiSBTicker.createView({
+			width: 200,
+			height: 200,
+			views: views
+		}),
+		tickButton = Ti.UI.createButton({
+			bottom: 10,
+			width: Ti.UI.SIZE,
+			height: Ti.UI.SIZE,
+			title: 'START'
+		});
+	
+	tickerView.addEventListener('start', function(){
+		tickButton.setTitle('STOP');
+		tickButton.setEnabled(true);
+	});
+	
+	tickerView.addEventListener('progress', function(e){
+		console.log(e.index);
+	});
+	
+	tickerView.addEventListener('complete', function(){
+		tickButton.setTitle('START');
+		tickButton.setEnabled(true);
+	});
+	
+	tickButton.addEventListener('click', function(){
+		tickButton.setEnabled(false);
+		
+		if (tickButton.getTitle() === 'START') {
+			tickerView.start({
+				direction: TiSBTicker.TICK_DIRECTION_DOWN,
+				animate: true,
+				interval: 500,
+				loop: true
+			});
+		} else {
+			tickerView.stop();
+		}
+	});
+
 ### License
 
 The MIT License (MIT) Copyright (c) 2014 Kosuke Isobe, Socketbase Inc.
