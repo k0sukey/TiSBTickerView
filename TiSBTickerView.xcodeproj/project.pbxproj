@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		238F6CD818D275FA00DE2E88 /* SBDoubleSidedLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 238F6CD018D275FA00DE2E88 /* SBDoubleSidedLayer.h */; };
+		238F6CD918D275FA00DE2E88 /* SBDoubleSidedLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F6CD118D275FA00DE2E88 /* SBDoubleSidedLayer.m */; };
+		238F6CDA18D275FA00DE2E88 /* SBGradientOverlayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 238F6CD218D275FA00DE2E88 /* SBGradientOverlayLayer.h */; };
+		238F6CDB18D275FA00DE2E88 /* SBGradientOverlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F6CD318D275FA00DE2E88 /* SBGradientOverlayLayer.m */; };
+		238F6CDC18D275FA00DE2E88 /* SBTickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 238F6CD418D275FA00DE2E88 /* SBTickerView.h */; };
+		238F6CDD18D275FA00DE2E88 /* SBTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F6CD518D275FA00DE2E88 /* SBTickerView.m */; };
+		238F6CDE18D275FA00DE2E88 /* UIView+SBExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 238F6CD618D275FA00DE2E88 /* UIView+SBExtras.h */; };
+		238F6CDF18D275FA00DE2E88 /* UIView+SBExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F6CD718D275FA00DE2E88 /* UIView+SBExtras.m */; };
+		238F6CEE18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 238F6CEC18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.h */; };
+		238F6CEF18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F6CED18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.m */; };
+		238F6CF218D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 238F6CF018D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.h */; };
+		238F6CF318D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F6CF118D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.m */; };
+		24DD6CF91134B3F500162E58 /* BeK0sukeTisbtickerviewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* BeK0sukeTisbtickerviewModule.h */; };
+		24DD6CFA1134B3F500162E58 /* BeK0sukeTisbtickerviewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* BeK0sukeTisbtickerviewModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* BeK0sukeTisbtickerview_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* BeK0sukeTisbtickerview_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TiSBTickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238F6CD018D275FA00DE2E88 /* SBDoubleSidedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBDoubleSidedLayer.h; path = SBTickerView/SBDoubleSidedLayer.h; sourceTree = "<group>"; };
+		238F6CD118D275FA00DE2E88 /* SBDoubleSidedLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBDoubleSidedLayer.m; path = SBTickerView/SBDoubleSidedLayer.m; sourceTree = "<group>"; };
+		238F6CD218D275FA00DE2E88 /* SBGradientOverlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBGradientOverlayLayer.h; path = SBTickerView/SBGradientOverlayLayer.h; sourceTree = "<group>"; };
+		238F6CD318D275FA00DE2E88 /* SBGradientOverlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBGradientOverlayLayer.m; path = SBTickerView/SBGradientOverlayLayer.m; sourceTree = "<group>"; };
+		238F6CD418D275FA00DE2E88 /* SBTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBTickerView.h; path = SBTickerView/SBTickerView.h; sourceTree = "<group>"; };
+		238F6CD518D275FA00DE2E88 /* SBTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBTickerView.m; path = SBTickerView/SBTickerView.m; sourceTree = "<group>"; };
+		238F6CD618D275FA00DE2E88 /* UIView+SBExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SBExtras.h"; path = "SBTickerView/UIView+SBExtras.h"; sourceTree = "<group>"; };
+		238F6CD718D275FA00DE2E88 /* UIView+SBExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SBExtras.m"; path = "SBTickerView/UIView+SBExtras.m"; sourceTree = "<group>"; };
+		238F6CEC18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeK0sukeTisbtickerviewView.h; path = Classes/BeK0sukeTisbtickerviewView.h; sourceTree = "<group>"; };
+		238F6CED18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeK0sukeTisbtickerviewView.m; path = Classes/BeK0sukeTisbtickerviewView.m; sourceTree = "<group>"; };
+		238F6CF018D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeK0sukeTisbtickerviewViewProxy.h; path = Classes/BeK0sukeTisbtickerviewViewProxy.h; sourceTree = "<group>"; };
+		238F6CF118D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeK0sukeTisbtickerviewViewProxy.m; path = Classes/BeK0sukeTisbtickerviewViewProxy.m; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* BeK0sukeTisbtickerviewModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeK0sukeTisbtickerviewModule.h; path = Classes/BeK0sukeTisbtickerviewModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* BeK0sukeTisbtickerviewModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeK0sukeTisbtickerviewModule.m; path = Classes/BeK0sukeTisbtickerviewModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeK0sukeTisbtickerviewModuleAssets.h; path = Classes/BeK0sukeTisbtickerviewModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeK0sukeTisbtickerviewModuleAssets.m; path = Classes/BeK0sukeTisbtickerviewModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* BeK0sukeTisbtickerview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeK0sukeTisbtickerview_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libBeK0sukeTisbtickerview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeK0sukeTisbtickerview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libBeK0sukeTisbtickerview.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TiSBTickerView */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TiSBTickerView;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				238F6CCF18D275CF00DE2E88 /* SBTickerView */,
+				24DE9E0F11C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* BeK0sukeTisbtickerviewModule.h */,
+				24DD6CF81134B3F500162E58 /* BeK0sukeTisbtickerviewModule.m */,
+				238F6CEC18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.h */,
+				238F6CED18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.m */,
+				238F6CF018D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.h */,
+				238F6CF118D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		238F6CCF18D275CF00DE2E88 /* SBTickerView */ = {
+			isa = PBXGroup;
+			children = (
+				238F6CD018D275FA00DE2E88 /* SBDoubleSidedLayer.h */,
+				238F6CD118D275FA00DE2E88 /* SBDoubleSidedLayer.m */,
+				238F6CD218D275FA00DE2E88 /* SBGradientOverlayLayer.h */,
+				238F6CD318D275FA00DE2E88 /* SBGradientOverlayLayer.m */,
+				238F6CD418D275FA00DE2E88 /* SBTickerView.h */,
+				238F6CD518D275FA00DE2E88 /* SBTickerView.m */,
+				238F6CD618D275FA00DE2E88 /* UIView+SBExtras.h */,
+				238F6CD718D275FA00DE2E88 /* UIView+SBExtras.m */,
+			);
+			name = SBTickerView;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* BeK0sukeTisbtickerview_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238F6CD818D275FA00DE2E88 /* SBDoubleSidedLayer.h in Headers */,
+				238F6CDA18D275FA00DE2E88 /* SBGradientOverlayLayer.h in Headers */,
+				238F6CEE18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* BeK0sukeTisbtickerview_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* BeK0sukeTisbtickerviewModule.h in Headers */,
+				238F6CDC18D275FA00DE2E88 /* SBTickerView.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.h in Headers */,
+				238F6CF218D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.h in Headers */,
+				238F6CDE18D275FA00DE2E88 /* UIView+SBExtras.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* TiSBTickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiSBTickerView" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiSBTickerView;
+			productName = TiSBTickerView;
+			productReference = D2AAC07E0554694100DB518D /* libBeK0sukeTisbtickerview.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiSBTickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* TiSBTickerView */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* TiSBTickerView */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238F6CDF18D275FA00DE2E88 /* UIView+SBExtras.m in Sources */,
+				238F6CDD18D275FA00DE2E88 /* SBTickerView.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* BeK0sukeTisbtickerviewModule.m in Sources */,
+				238F6CF318D278BD00DE2E88 /* BeK0sukeTisbtickerviewViewProxy.m in Sources */,
+				238F6CEF18D278A300DE2E88 /* BeK0sukeTisbtickerviewView.m in Sources */,
+				238F6CDB18D275FA00DE2E88 /* SBGradientOverlayLayer.m in Sources */,
+				238F6CD918D275FA00DE2E88 /* SBDoubleSidedLayer.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* BeK0sukeTisbtickerviewModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* TiSBTickerView */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/BeK0sukeTisbtickerview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeK0sukeTisbtickerview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BeK0sukeTisbtickerview;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/BeK0sukeTisbtickerview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeK0sukeTisbtickerview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BeK0sukeTisbtickerview;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/BeK0sukeTisbtickerview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeK0sukeTisbtickerview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BeK0sukeTisbtickerview;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/BeK0sukeTisbtickerview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeK0sukeTisbtickerview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BeK0sukeTisbtickerview;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiSBTickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiSBTickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
